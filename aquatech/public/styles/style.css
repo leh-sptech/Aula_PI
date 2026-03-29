@@ -1,0 +1,204 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    border-bottom: 4px solid #32B9CD;
+}
+
+.container {
+  display: flex;
+}
+
+.titulo {
+    color: darkturquoise;
+    margin-left: 100px;
+}   
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 60px;
+    margin-left: 1000px;
+    margin-top: 30px;
+}
+
+li {
+    color: orange;
+}
+
+li a {
+    color: orange;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.agora {
+    font-weight: bold;
+}
+
+/* BANNER */
+
+.banner {
+    display: flex;
+    background-image: url('/public/assets/imgs/bg-jelly-fish-para-home.png');
+    height: 500px;
+    width: 100%;
+}
+
+.banner p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 500px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size:30px;
+    width: 450px;
+}
+
+.banner span {
+    font-weight: bold;
+    width: 200px;
+}
+
+/*  SOCIAL */
+.social {
+    background-color: #F5F5F5;
+}
+
+.boxes {
+    display: flex;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes img {
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 300px;
+}
+
+.boxes h4 {
+    color: #e84ea8;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 260px;
+}
+
+.boxes p {
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    margin-left: 330px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+/*  FOOTER  */
+
+.footer {
+    display: flex;
+    background-color: #00CCCC;
+}
+
+.footer h4 {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    color: white;
+    margin-left: 100px;
+}
+
+.version {
+    color: white;
+    display: flex;
+    align-self: flex-end;
+    margin-left: 1500px;
+}
+
+/*  CADASTRO  */
+
+.login {
+    display: flex;
+    background-image: url('/public/assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login h2 {
+    display: flex;
+    color: #FF91AF;
+    justify-content: center;
+}
+
+.login span {
+    display: flex;
+    color: #FF91AF;
+    font-weight: bold; 
+}
+
+.card-cadastro {
+    background-color: #d9d9d9; 
+    padding: 30px; 
+    border-radius: 12px; 
+    width: 450px; 
+    text-align: center; 
+    height: 500px;
+}
+
+/*  LOGIN  */
+
+.login {
+    background-image: url("/public/assets/imgs/bg-jelly-fish-para-home.png"); 
+    background-size: cover; 
+    height: 737px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.card-login {
+    background-color: #d9d9d9; 
+    padding: 30px; 
+    border-radius: 12px; 
+    width: 450px; 
+    text-align: center; 
+}
+
+.campo {
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 5px; 
+    text-align: left; 
+}
+
+.campo input {
+    padding: 10px; 
+    border-radius: 8px; 
+    border: 2px solid #32b9cd; 
+}
+
+.botao {
+    background-color: #ff2f6d; 
+    color: white; 
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    font-weight: bold;
+}
